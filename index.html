@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cindy Zhou | Economics & Finance Portfolio</title>
+    <meta name="description" content="Cindy Zhou's personal portfolio - Economics and Finance student passionate about data analytics, financial modeling, and creating impact through data-driven insights.">
+    <meta name="keywords" content="Cindy Zhou, economics, finance, data analytics, financial modeling, portfolio, student, resume">
+    <meta name="author" content="Cindy Zhou">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎨</text></svg>">
+</head>
+<body>
+    <!-- Progress Bar -->
+    <div class="progress-container">
+        <div class="progress-bar" id="progressBar"></div>
+    </div>
+
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar" id="sidebar">
+        <div class="sidebar-content">
+            <a href="#" class="sidebar-logo">Cindy Zhou<span>.</span></a>
+            <nav class="sidebar-nav">
+                <a href="#hero" class="sidebar-link active" data-section="hero">
+                    <i class="fas fa-home"></i>
+                    <span>Home</span>
+                </a>
+                <a href="#projects" class="sidebar-link" data-section="projects">
+                    <i class="fas fa-project-diagram"></i>
+                    <span>Projects</span>
+                </a>
+                <a href="#skills" class="sidebar-link" data-section="skills">
+                    <i class="fas fa-chart-bar"></i>
+                    <span>Skills</span>
+                </a>
+                <a href="#experience" class="sidebar-link" data-section="experience">
+                    <i class="fas fa-briefcase"></i>
+                    <span>Experience</span>
+                </a>
+                <a href="#education" class="sidebar-link" data-section="education">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>Education</span>
+                </a>
+                <a href="#contact" class="sidebar-link" data-section="contact">
+                    <i class="fas fa-envelope"></i>
+                    <span>Contact</span>
+                </a>
+            </nav>
+            <div class="sidebar-footer">
+                <button class="sidebar-theme-toggle" id="sidebarThemeToggle" aria-label="Toggle dark/light mode">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                </button>
+                <div class="sidebar-social">
+                    <a href="https://linkedin.com/in/fan-yip-zhou-106a682a1" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#contact" aria-label="Contact Information">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Top Header (Mobile) -->
+    <header class="header">
+        <nav class="nav container">
+            <button class="sidebar-toggle" id="sidebarToggle" aria-label="Toggle sidebar">
+                <i class="fas fa-bars"></i>
+            </button>
+            <a href="#" class="logo">Cindy Zhou<span>.</span></a>
+            <button class="theme-toggle-mobile" id="themeToggleMobile" aria-label="Toggle dark/light mode">
+                <i class="fas fa-moon"></i>
+                <i class="fas fa-sun"></i>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero & About Section -->
+    <section class="hero section" id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title animate-fade-up">Hi, I'm <span class="highlight">Cindy Zhou</span></h1>
+                <h2 class="hero-subtitle animate-fade-up">Economics & Finance Student | Data Analytics</h2>
+                <p class="hero-description animate-fade-up">
+                    An outgoing economics and finance student with a passion for puppies, kittens, and creating meaningful impact through data-driven insights.
+                    Skilled in financial analysis, data visualization, and strategic decision-making.
+                </p>
+                <div class="hero-buttons animate-fade-up">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#skills" class="btn btn-secondary">Explore Skills</a>
+                </div>
+            </div>
+            <div class="hero-image animate-fade-up">
+                <div class="image-placeholder">
+                    <i class="fas fa-user-graduate"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Portfolio Section -->
+    <section class="projects section" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Economics, finance, and data analysis projects</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card animate-fade-up">
+                    <div class="project-image">
+                        <div class="image-placeholder project-img">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">China Economic Analysis</h3>
+                        <p class="project-description">
+                            Comprehensive analysis of China's economic indicators, GDP growth trends, and trade patterns.
+                            Utilized statistical models to forecast economic developments and policy impacts.
+                        </p>
+                        <div class="project-tech">
+                            <span>Excel</span>
+                            <span>Statistical Analysis</span>
+                            <span>Economic Modeling</span>
+                            <span>Data Visualization</span>
+                        </div>
+                        <a href="#" class="project-link">View Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="project-card animate-fade-up">
+                    <div class="project-image">
+                        <div class="image-placeholder project-img">
+                            <i class="fas fa-coins"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Portfolio Optimization Model</h3>
+                        <p class="project-description">
+                            Developed a quantitative investment model for asset allocation using modern portfolio theory.
+                            Analyzed risk-return tradeoffs and optimized diversification across multiple asset classes.
+                        </p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Financial Modeling</span>
+                            <span>Risk Analysis</span>
+                            <span>Excel</span>
+                        </div>
+                        <a href="#" class="project-link">View Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="project-card animate-fade-up">
+                    <div class="project-image">
+                        <div class="image-placeholder project-img">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">ESG Risk Assessment Framework</h3>
+                        <p class="project-description">
+                            Created an ESG evaluation framework for corporate sustainability assessment.
+                            Integrated environmental, social, and governance factors into investment decision-making processes.
+                        </p>
+                        <div class="project-tech">
+                            <span>ESG Analysis</span>
+                            <span>Sustainability</span>
+                            <span>Risk Assessment</span>
+                            <span>Corporate Governance</span>
+                        </div>
+                        <a href="#" class="project-link">View Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills & Experience Section -->
+    <section class="skills section" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Experience</h2>
+                <p class="section-subtitle">Technical expertise and professional journey</p>
+            </div>
+            <div class="skills-content">
+                <div class="skills-list animate-fade-up">
+                    <h3 class="skills-category">Language Skills</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Mandarin (Native)</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 100%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Cantonese (Native)</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 100%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">English - IELTS 7.5</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">English - GRE 163+170</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h3 class="skills-category">Technical & Software Skills</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Microsoft Excel</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 92%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Microsoft PowerPoint</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">ArcGIS</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Video Editing Software</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h3 class="skills-category">Professional Skills</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Financial Analysis</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Market Research</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">ESG & Sustainability</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Social Media Management</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 82%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h3 class="skills-category">Professional Certification</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">CFA Level 1 Candidate</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-list animate-fade-up" id="experience">
+                    <h3 class="experience-title">Professional Experience</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-date">Sep 2025 - Dec 2025</div>
+                            <div class="timeline-content">
+                                <h4 class="timeline-role">Full-time Intern</h4>
+                                <p class="timeline-company">Tsinghua University, International Education Center</p>
+                                <p class="timeline-description">
+                                    Supported the Tsinghua Yinghua Scholars Project (similar to Rhodes scholarship) for a one-year exchange program with Oxford and Cambridge. Coordinated UK outreach trips and designed cultural exchange itineraries for the 2026 inbound study program.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">Jun 2025 - Jul 2025</div>
+                            <div class="timeline-content">
+                                <h4 class="timeline-role">Summer Intern, Investment Department</h4>
+                                <p class="timeline-company">Guangdong Yuecai Fund Management Co., Ltd.</p>
+                                <p class="timeline-description">
+                                    Conducted on-site research for multiple projects and contributed to project assessments. Researched 2.5D/3D advanced packaging, silicon carbide, and China's wind energy industry, developing industry maps and market analyses.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">Jul 2024 - Aug 2024</div>
+                            <div class="timeline-content">
+                                <h4 class="timeline-role">Marketing Intern</h4>
+                                <p class="timeline-company">Shanghai Haier Group</p>
+                                <p class="timeline-description">
+                                    Analyzed Haier's brand strategy and supported 6 major marketing events with a 20+ million RMB budget. Drove business expansion through client negotiations and relationship management.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">Feb 2024 - Apr 2024</div>
+                            <div class="timeline-content">
+                                <h4 class="timeline-role">Part-time Assistant</h4>
+                                <p class="timeline-company">Gao Feng Advisory</p>
+                                <p class="timeline-description">
+                                    Facilitated strategic planning for a new energy vehicle company, conducting market outlook and competitive landscape analysis. Supported development of a five-year market entry plan through macro-trend analysis.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">Jul 2023 - Aug 2023</div>
+                            <div class="timeline-content">
+                                <h4 class="timeline-role">Summer Intern, ESG Department</h4>
+                                <p class="timeline-company">Pricewaterhouse Coopers</p>
+                                <p class="timeline-description">
+                                    Facilitated ESG project initiation through desktop research and client meetings. Developed carbon emission management guides and provided efficiency improvement recommendations across supply chain operations.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">Jul 2022 - Aug 2022</div>
+                            <div class="timeline-content">
+                                <h4 class="timeline-role">Summer Trainee</h4>
+                                <p class="timeline-company">PwC Youplus Anchor Explorer</p>
+                                <p class="timeline-description">
+                                    Conducted comprehensive analysis of Nintendo's business performance and competitive landscape. Delivered strategic proposals on product diversification and market expansion through primary research and financial data review.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education section" id="education">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Education Background</h2>
+                <p class="section-subtitle">Academic journey and qualifications</p>
+            </div>
+            <div class="education-content">
+                <div class="education-timeline">
+                    <div class="education-item animate-fade-up">
+                        <div class="education-date">2026 - Present (Expected)</div>
+                        <div class="education-details">
+                            <h3 class="education-degree">Master of Applied Economics and Management</h3>
+                            <p class="education-school">Cornell University, United States</p>
+                            <p class="education-description">
+                                Advanced study in applied economics, management strategies, and data-driven decision making.
+                                Focus on economic analysis, policy evaluation, and business management applications.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="education-item animate-fade-up">
+                        <div class="education-date">2022 - 2026 (Expected)</div>
+                        <div class="education-details">
+                            <h3 class="education-degree">Bachelor of Economics and Finance</h3>
+                            <p class="education-school">University of Hong Kong, Hong Kong</p>
+                            <p class="education-description">
+                                Comprehensive study of economic theories, financial markets, and quantitative analysis.
+                                Developed strong analytical skills through coursework in microeconomics, macroeconomics,
+                                financial accounting, and econometrics.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="education-highlights">
+                    <h3 class="highlights-title">Academic Highlights</h3>
+                    <div class="highlights-grid">
+                        <div class="highlight-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <h4>Degree Programs</h4>
+                            <p>Double focus on economic theory and practical finance applications</p>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-chart-line"></i>
+                            <h4>Analytical Skills</h4>
+                            <p>Proficient in economic modeling, data analysis, and financial valuation</p>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-globe"></i>
+                            <h4>International Exposure</h4>
+                            <p>Studied in both Asian and American educational systems</p>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-certificate"></i>
+                            <h4>Professional Certification</h4>
+                            <p>CFA Level 1 candidate with strong foundation in investment principles</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Information Section -->
+    <section class="contact section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contact Information</h2>
+                <p class="section-subtitle">Get in touch with me</p>
+            </div>
+            <div class="contact-box animate-fade-up">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div class="contact-details">
+                            <h3 class="contact-label">Email</h3>
+                            <p class="contact-value">fanyipzhou@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div class="contact-details">
+                            <h3 class="contact-label">Phone</h3>
+                            <p class="contact-value">(86) 15118693298</p>
+                            <p class="contact-value">(852) 54083060</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-weixin"></i>
+                        <div class="contact-details">
+                            <h3 class="contact-label">WeChat</h3>
+                            <p class="contact-value">15118693298</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <div class="contact-details">
+                            <h3 class="contact-label">LinkedIn</h3>
+                            <p class="contact-value">linkedin.com/in/fan-yip-zhou-106a682a1</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-note">
+                    <p>Feel free to reach out for collaborations, opportunities, or just to connect!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Global Footprint Section -->
+    <section class="globe section" id="globe">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Global Footprint</h2>
+                <p class="section-subtitle">Places I've lived, studied, and worked</p>
+            </div>
+            <div class="globe-container animate-fade-up">
+                <div class="globe-controls">
+                    <button class="globe-btn" id="autoRotateBtn" title="Auto rotate">
+                        <i class="fas fa-play"></i>
+                        <span>Auto Rotate</span>
+                    </button>
+                    <button class="globe-btn" id="resetViewBtn" title="Reset view">
+                        <i class="fas fa-redo"></i>
+                        <span>Reset View</span>
+                    </button>
+                </div>
+                <div class="globe-wrapper">
+                    <div class="earth" id="earth">
+                        <!-- Earth sphere will be created with CSS/JS -->
+                        <div class="location-marker hong-kong" data-city="Hong Kong" data-country="China">
+                            <div class="marker-dot"></div>
+                            <div class="marker-label">Hong Kong</div>
+                        </div>
+                        <div class="location-marker shenzhen" data-city="Shenzhen" data-country="China">
+                            <div class="marker-dot"></div>
+                            <div class="marker-label">Shenzhen</div>
+                        </div>
+                        <div class="location-marker guangzhou" data-city="Guangzhou" data-country="China">
+                            <div class="marker-dot"></div>
+                            <div class="marker-label">Guangzhou</div>
+                        </div>
+                        <div class="location-marker beijing" data-city="Beijing" data-country="China">
+                            <div class="marker-dot"></div>
+                            <div class="marker-label">Beijing</div>
+                        </div>
+                        <div class="location-marker shanghai" data-city="Shanghai" data-country="China">
+                            <div class="marker-dot"></div>
+                            <div class="marker-label">Shanghai</div>
+                        </div>
+                        <div class="location-marker new-york" data-city="New York" data-country="USA">
+                            <div class="marker-dot"></div>
+                            <div class="marker-label">New York</div>
+                        </div>
+                        <div class="location-marker ithaca" data-city="Ithaca, NY" data-country="USA">
+                            <div class="marker-dot"></div>
+                            <div class="marker-label">Ithaca</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="globe-legend">
+                    <div class="legend-item">
+                        <div class="legend-color study"></div>
+                        <span>Study Locations (Hong Kong, Ithaca)</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color work"></div>
+                        <span>Work Locations (Beijing, Shanghai, Shenzhen, Guangzhou)</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color connection"></div>
+                        <span>Key Connection (New York)</span>
+                    </div>
+                </div>
+                <div class="globe-info">
+                    <p>Drag the globe to rotate it. Click on markers for details about my experiences in each location.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3 class="footer-logo">Portfolio<span>.</span></h3>
+                    <p class="footer-description">
+                        Cindy Zhou's personal portfolio - Economics and Finance student with experience in international education, investment analysis, and ESG consulting.
+                    </p>
+                    <div class="footer-social">
+                        <a href="https://linkedin.com/in/fan-yip-zhou-106a682a1" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#contact" aria-label="Contact Information">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4 class="footer-heading">Quick Links</h4>
+                    <a href="#hero">Home</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#education">Education</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> Personal Portfolio. All rights reserved.</p>
+                <p>Designed with <i class="fas fa-heart"></i> and Morandi colors</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
